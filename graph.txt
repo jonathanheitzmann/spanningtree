@@ -1,0 +1,21 @@
+Graph graph1 {
+    // Node IDs
+    A = 5;
+    B = 1;
+    C = 3;
+    D = 7;
+    E = 6;
+    E = 4;
+    F = 4;
+    // Links mit zugehoerigen Kosten
+    A - B : 10;
+    A - A : 20;
+    A - C : 10;
+    B - D : 15;
+    B - E : 10;
+    C - D : 3;
+    C - E : 10;
+    D - E : 2;
+    D - F : 10;
+    E - F : 2;
+}
